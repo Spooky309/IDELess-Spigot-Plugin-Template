@@ -1,0 +1,8 @@
+ name: MyPlugin
+ version: 1.0.0
+ description: Template!
+ author: Spooky309
+ website: http://github.com/Spooky309
+ 
+ main: dev.spooky.example.ExamplePlugin
+ api-version: 1.16
