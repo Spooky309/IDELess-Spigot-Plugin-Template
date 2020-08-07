@@ -17,3 +17,7 @@ Make sure you add any additional .java files you make to the javac line in build
 Make sure you update the batch and plugin.yml if you change something that needs to be notified!
 
 You can also add a line just before `echo done` in `build.bat` that copies/moves your jar file to your server plugins directory, if you want faster testing.
+
+# Addressing the lack of \*sh buildscript
+
+I developed this plugin on Windows because it's what I had access to at the time. If you use Linux, it shouldn't be hard to port the batch script to \*sh.
