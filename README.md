@@ -16,6 +16,8 @@ Make sure you add any additional .java files you make to the javac line in build
 
 Make sure you update the batch and plugin.yml if you change something that needs to be notified!
 
+Update the `--rev` argument on `BuildTools` in `build.bat` to whatever version of MC you're compiling for. Manually delete `BuildTools\spigot.jar`.
+
 You can also add a line just before `echo done` in `build.bat` that copies/moves your jar file to your server plugins directory, if you want faster testing.
 
 # Addressing the lack of \*sh buildscript
