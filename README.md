@@ -1,6 +1,6 @@
 # Why?
 
-I couldn't find a good simple batch-built template and I didn't want to install a horrifically clunky IDE just to write a simple plugin for my server. I then turned it into this template, for your developing pleasure.
+I couldn't find a good simple script-built template and I didn't want to install a horrifically clunky IDE or [comically bloated build system](https://i.imgur.com/IlXgLme.png) just to write a simple plugin for my server. I then turned it into this template, for your developing pleasure.
 
 # What do I need
 
