@@ -2,7 +2,7 @@
  version: 1.0.0
  description: Template!
  author: Spooky309
- website: http://github.com/Spooky309
+ website: https://github.com/Spooky309/IDELess-Spigot-Plugin-Template
  
  main: dev.spooky.example.ExamplePlugin
  api-version: 1.16
