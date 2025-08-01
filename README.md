@@ -6,9 +6,11 @@ I couldn't find a good simple script-built template and I didn't want to install
 
 If you can run a bukkit/spigot/paper server, you probably already have what you need. Also ~300MB disk space for the heavy buildtools files, you can delete them after if you don't expect to be recompiling it.
 
+Alternatively, if you're using Nix, just use the nix-shell...
+
 # How do I use it?
 
-Just download it and run `build.bat`, it should generate a jar file in the build directory.
+Just download it and run `build.sh`, it should generate a jar file in the build directory.
 
 # Things you should do
 
@@ -16,10 +18,7 @@ Make sure you add any additional .java files you make to the javac line in build
 
 Make sure you update the batch and plugin.yml if you change something that needs to be notified!
 
-Update the `--rev` argument on `BuildTools` in `build.bat` to whatever version of MC you're compiling for. Manually delete `BuildTools\spigot.jar`.
+Update the `--rev` argument on `BuildTools` in `build.sh` to whatever version of MC you're compiling for. Manually delete `BuildTools/Spigot`.
 
-You can also add a line just before `echo done` in `build.bat` that copies/moves your jar file to your server plugins directory, if you want faster testing.
+You can also add a line in `build.sh` that copies/moves your jar file to your server plugins directory, if you want faster testing.
 
-# Addressing the lack of \*sh buildscript
-
-I developed this plugin on Windows because it's what I had access to at the time. If you use Linux, it shouldn't be hard to port the batch script to \*sh.
